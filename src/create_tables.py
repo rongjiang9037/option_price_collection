@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 
 def drop_tables(cur, conn):
     """
-    Drops each table using the queries in `drop_table_queries` list.
+    Drop each table with queries in `drop_table_queries` list.
     
     input:
     cur: cursor variable
@@ -23,9 +23,8 @@ def drop_tables(cur, conn):
         
 def create_tables(cur, conn):
     """
-    - Creates and connects to the sparkifydb
-    - Returns the connection and cursor to sparkifydb
-    
+    - Create tables with queries in 'create_table_queries' list.
+
     input: None
     return: None
     """
@@ -36,13 +35,13 @@ def create_tables(cur, conn):
         
 def main():
     """
-    - Connect to AWS database.
+    - Connect to AWS redshift database.
     
-    - Drops all the tables.  
+    - Drop all tables.  
     
-    - Creates all tables needed. 
+    - Create all tables needed. 
     
-    - Finally, closes the connection. 
+    - Finally, close the connection. 
     
     input: None
     return: None
