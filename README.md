@@ -31,4 +31,4 @@ This project migrates local option price to AWS redshift database for further an
         
 
 ## ER Diagram
-![Image of ER Diagram](https://www.dropbox.com/s/ryyhumkv1abu2yt/option_price.jpeg?raw=1)
+![Image of ER Diagram](https://www.dropbox.com/s/0rstchls05xo0e1/option_price.jpeg?raw=1)
